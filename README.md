@@ -10,11 +10,13 @@ Apply tag to all attached cameras (on specified bridges) even if they aren't in 
 Requires Python 3
 
 `pip3 install -r requirements.txt`
+
 `ipython -i script.py`
 
 or you can just Docker
 
 `docker build -t bulk-settings .`
+
 `docker run -it bulk-settings`
 
 
