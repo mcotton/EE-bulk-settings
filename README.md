@@ -1,10 +1,9 @@
 # EE-bulk-settings
 
 ## Introduction
-Match up Eagle Eye caneras by IP address with a spreadsheet of camera names.
+Examples of how to make bulk settings changes.
 
-Apply tag to all attached cameras (on specified bridges) even if they aren't in the spreadsheet
-
+Make sure the change the `Dockerfile` to call the correct script
 
 ## Usage
 Requires Python 3
