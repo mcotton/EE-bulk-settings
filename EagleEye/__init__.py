@@ -74,14 +74,14 @@ class Camera():
         if instance and body:
             
             url = f"{instance.host}/g/device"
-            print(url)
+            # print(url)
 
-            print(json.dumps(body))
+            # print(json.dumps(body))
             if body['id']:
                 res = instance.session.post(url=url, json=body, headers={'Content-Type': 'application/json'} )
 
                 if res:
-                    print(res)
+                    # print(res)
                     if res.status_code == 200:
                         
                         return res.json()
